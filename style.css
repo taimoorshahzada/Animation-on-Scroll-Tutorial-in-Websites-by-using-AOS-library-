@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: white;
+    background: #0f0f0f;
+    font-family: 'Monument';
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 100vh;
+}
+.c1 h1{
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.img1{
+    width: 420px;
+    height: 500px;
+    background: url(image1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    filter: grayscale(1);
+}
+.img2{
+    width: 620px;
+    height: 400px;
+    background: url(image2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.img3{
+    width: 320px;
+    height: 450px;
+    background: url(image3.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    filter: grayscale(1);
+}
+.img4{
+    width: 420px;
+    height: 600px;
+    background: url(image4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    filter: grayscale(1);
+}
+h1{
+    font-size: 80px;
+}
+@media(max-width: 1000px){
+    h1{
+        font-size: 50px;
+    }
+}
